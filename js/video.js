@@ -5,10 +5,10 @@ window.addEventListener("load", function() {
 	console.log("Good job opening the window");
 
 	video = document.querySelector('#player1');
-	console.log("Loop is: " + video.loop);
 	video.loop = false;
-	console.log("Autoplay is: " + video.autoplay);
 	video.autoplay = false;
+	console.log("Loop is: " + video.loop);
+	console.log("Autoplay is: " + video.autoplay);
 });
 
 
